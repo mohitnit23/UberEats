@@ -1,0 +1,85 @@
+#countries {
+    margin-left: 5vh;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cont {
+    font-size: 40px;
+    margin-left: 6.5vh;
+    margin-top: 10vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+
+#countries #b1 li {
+    list-style: none;
+    padding: 2vh;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#line {
+    margin-top: 3vh;
+    border-top: rgb(31, 29, 29);
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+
+#rightfoot {
+    margin-left: 80vh;
+    display: flex;
+    /* width: 50vh; */
+
+}
+
+#footer_head {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+#boldt {
+    font-weight: bolder;
+}
+
+#light {
+    font-weight: lighter;
+}
+
+#rightfoot li {
+    list-style: none;
+    padding: 1.5vh;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+#rightfoot li:hover {
+    text-decoration: underline;
+
+}
+
+
+#leftfoot {
+    margin-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    /* width: 40vh; */
+
+}
+
+#download {
+    margin-top: 15vh;
+}
+
+#lst2 {
+    margin-left: 15vh;
+}

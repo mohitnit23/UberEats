@@ -1,0 +1,62 @@
+#below_navbar {
+    position: absolute;
+    margin-left: 6vh;
+    margin-top: 19rem;
+}
+
+
+
+#phrase {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    letter-spacing: .0001ch;
+}
+
+#address {
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    width: 80vh;
+    height: 2vh;
+    margin-top: 5vh;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4vh;
+    border: 1px solid rgb(255, 213, 0);
+}
+
+#location_logo {
+    position: absolute;
+    top: 15.5vh;
+    left: 1vh;
+}
+
+#delivery {
+    width: 25vh;
+    font-size: 15px;
+    font-weight: bold;
+    height: 8vh;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.opt {
+    width: 25vh;
+    font-size: 15px;
+    font-weight: bold;
+    height: 8vh;
+    text-align: center;
+}
+
+#Find {
+    width: 16vh;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer ;
+}
+#Find:hover{
+    filter:opacity(70%);
+    transition-duration: .1s;
+}

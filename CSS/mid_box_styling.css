@@ -1,0 +1,29 @@
+#mid_boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 50vh;
+    margin-left: 5vh;
+    margin-top: 10vh;
+}
+
+#b1,#b2,#b3 {
+    cursor: pointer;
+}
+
+#b1 h2,
+#b2 h2,
+#b3 h2 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 30px;
+
+}
+
+#b1 h4,
+#b2 h4,
+#b3 h4 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: light;
+    letter-spacing: .11ch;
+}

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 100%;
+  height: 110vh;
+  background-image: url("../PICS/page_bg.jpg");
+  background-size: cover;
+}
+
+#nav_bar {
+  height: 13vh;
+  font-family: "Lato", sans-serif;
+
+  /* position: fixed;
+    top: 0;
+    width: 100%; */
+  z-index: 9999999;
+}
+
+#left {
+  display: flex;
+  padding: 2vh;
+}
+
+#logo {
+  margin-left: 3vh;
+  margin-top: 3vh;
+}
+
+#uber {
+  font-weight: 500;
+}
+
+#bolder {
+  font-weight: 900;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+#uber_title {
+  margin-left: 3vh;
+  margin-top: 3vh;
+  font-size: 30px;
+}
+
+#right {
+  display: flex;
+  position: relative;
+  left: 166vh;
+  top: -10vh;
+}
+
+#login button,
+#signup button {
+  width: 14vh;
+  height: 7vh;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 2vh;
+  cursor: pointer;
+}
+
+#login button {
+  background: white;
+  color: black;
+}
+
+#signup button {
+  background: black;
+  color: white;
+}
+
+#user_logo {
+  position: absolute;
+  left: 4.3vh;
+}
+
+#log_text {
+  position: relative;
+  right: -1.5vh;
+}
+
+#signup button:hover {
+  filter: opacity(70%);
+  transition-duration: 0.1s;
+}
+
+.mid {
+  position: absolute;
+  left: 50vh;
+  top: -2vh;
+  display: none;
+}
+
+#nav_searchbar {
+  width: 80vh;
+  height: 2vh;
+  margin-top: 5vh;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 4vh;
+  border: 1px solid rgb(218, 204, 204);
+}
+
+#nav_location_logo {
+  position: absolute;
+  top: 7.5vh;
+  left: 1vh;
+}
