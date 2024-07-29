@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="./CSS/login_page_designs.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="nav">
+      <div id="left">
+        <h1>Uber <span id="eats">Eats</span></h1>
+      </div>
+    </div>
+
+    <!-- login box starts here -->
+    <div id="login_box">
+      <div id="login_head">
+        <h1>What's your phone number or email?</h1>
+      </div>
+      <div>
+        <input
+          type="text"
+          name=""
+          id="mail_box"
+          placeholder="Enter phone number"
+        />
+      </div>
+      <div id="error_msg">Please enter a valid phone or email</div>
+      <button id="btn">Continue</button>
+      <div id="or">
+        <p>or</p>
+      </div>
+      <div id="google">
+        <button class="buttons">
+          <img src="./PICS/google.png" alt="" id="google_logo" /> Continue with
+          Google
+        </button>
+      </div>
+      <div id="apple">
+        <button class="buttons">
+          <img src="./PICS/apple.png" alt="" id="apple_logo" />
+          Continue with Apple
+        </button>
+      </div>
+      <div id="Facebook">
+        <button class="buttons">
+          <img src="./PICS/fb.png" alt="" id="fb_logo" />
+          Continue with Facebook
+        </button>
+      </div>
+      <div id="warning">
+        <p>
+          By proceeding, you consent to get calls, WhatsApp or SMS messages,
+          including by automated means, from Uber and its affiliates to the
+          number provided.
+        </p>
+      </div>
+      <div id="footer">
+        This site is protected by reCAPTCHA and the Google
+        <u class="link">Privacy Policy</u> and
+        <u class="link">Terms of Service</u> apply.
+      </div>
+    </div>
+  </body>
+  <script src="./LOGICS/login_page_logics.js"></script>
+</html>
